@@ -135,8 +135,8 @@ Color GetScaledPixel(Color pixel, Color fog, float fogFactor) {
 void LoadMaps() {
     for (size_t i = 0; i < NUM_MAPS; i++) {
         map_t map;
-        sprintf(map.colorMap, "resources/map%d.color.gif", (int)i);
-        sprintf(map.heightMap, "resources/map%d.height.gif", (int)i);
+        sprintf(map.colorMap, "resource/map%d.color.gif", (int)i);
+        sprintf(map.heightMap, "resource/map%d.height.gif", (int)i);
         maps[i] = map;
     }
 }
